@@ -1,0 +1,52 @@
+:root {
+    --background-body: #5d6d85;
+    --background-box: #aefafb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: var(--background-body);
+    color: #000000;
+    font: normal 15pt Arial;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.box {
+    background: var(--background-box);
+    width: 600px;
+    height: 300px;
+    margin: 10% auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.box h1 {
+    padding-top: 10%;
+    color: #877d7d;
+}
+
+.box p {
+    padding-bottom: 10%;
+}
+
+.box a {
+    font-weight: 700;
+    color: #3f3c3c;
+    padding: 25px;
+}
+
+table {
+    width: 100%;
+    text-align: start;
+    padding: 30px;
+}
